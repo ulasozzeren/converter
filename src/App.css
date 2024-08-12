@@ -1,0 +1,52 @@
+.container {
+
+  background-color: rgb(0, 55, 255);
+  background-size: cover; /* Arka plan resmini kapsayacak şekilde ölçeklendirir */
+  background-position: center; /* Arka plan resmini ortalar */
+  background-repeat: no-repeat; /* Arka planın tekrar etmesini engeller */
+  min-height: 100vh; /* Sayfanın yüksekliğini en az ekran yüksekliği kadar yapar */
+  padding: 20px; /* İçeriğin kenarlardan uzak olmasını sağlar */
+  padding: 20px;
+  text-align: center;
+  height: 100vh;
+  
+}
+
+.input-box {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+.select-box {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.result-box p {
+  font-size: 20px; 
+  font-weight: bold;
+  display: flex;
+  align-items: center; /* Bayrağı metinle hizalar */
+}
+
+.flag-icon {
+  width: 40px; /* Bayrakların genişliği */
+  height: 35px; /* Bayrakların yüksekliği */
+  border-radius: 50%; /* Yuvarlak yapar */
+  margin-right: 20px; /* Bayrak ve metin arasındaki boşluk */
+}
